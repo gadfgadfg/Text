@@ -6,7 +6,7 @@ import easyocr
 import datetime
 import threading
 
-class ModernApp:
+class App:
     def __init__(self, root):
         self.root = root
         self.root.title("Распознаватель рукописного текста")
@@ -188,5 +188,5 @@ class ModernApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = ModernApp(root)
+    app = App(root)
     root.mainloop()
